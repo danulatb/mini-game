@@ -43,15 +43,15 @@ const move =()=>{
 const avtar =()=>{
     if(speed!==0){
         
-        player.style.backgroundImage = `url(../img/templerun/Run__00${index++}.png)`
+        player.style.backgroundImage = `url(img/templerun/Run__00${index++}.png)`
         
     }else if(speedy!==0){
         
-        player.style.backgroundImage = `url(../img/templerun/Jump__00${index++}.png)`
+        player.style.backgroundImage = `url(img/templerun/Jump__00${index++}.png)`
 
     }else{
         // index = 1;
-        player.style.backgroundImage = `url(../img/templerun/Idle__00${index++}.png)`
+        player.style.backgroundImage = `url(img/templerun/Idle__00${index++}.png)`
     }
     if(index>9) index =0;
 
